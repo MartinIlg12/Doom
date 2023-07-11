@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduccion al DOM</title>
+    <style>
+        .contenedor{
+            border: 1px solid black;
+            padding: 10px;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="titulo-uno" class="title-uno">Practica para acceder al DOM</h2>
+    <div id="caja-uno" class="contenedor">
+    <h3>Seleccionar elementos</h3>
+    <p class="parrafo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ea inventore consequuntur molestias nemo repellendus magnam corporis illo est sapiente ipsam provident,
+        libero ullam ipsum assumenda neque cupiditate natus cum?
+    </p>
+    <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, nisi.</p>
+</div>
+<br>
+<br>
+<div>
+    <input type="submit" id="btn-enviar" value="Enviar" onclick="mensaje()">
+    <br>
+    <br>
+    <input type="submit" id="btn semantico" value="Botón Semantico">
+    <br>
+    <br>
+    <input type="submit" id="btn-parametro" value="Handler con parametros">
+</div>
+    <script src="js/index.js"></script>
+</body>
+</html>

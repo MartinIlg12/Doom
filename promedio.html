@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio</title>
+    <style>
+        #imprimir-promedio{
+            border: 2px solid crimson;
+            background-color: bisque;
+            padding: 20px;
+            text-align: center;
+            width: 25%;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Promedio de los alumnos de tercero DS</h2>
+    <div>
+        <label for="input-tareas">Tareas </label>
+        <input type="text" id="input-tareas" name="tareas">
+        <br>
+        <br>
+        <label for="input-examen">Examen </label>
+        <input type="text" id="input-examen" name="examen">
+        <br>
+        <br>
+        <label for="input-cuaderno">Cuaderno </label>
+        <input type="text" id="input-cuaderno" name="cuaderno">
+        <br>
+        <br>
+        <input type="submit" id="btn-romedio" value="Calcular Promedio" onclick="mensaje()">
+        <p id="imprimir-promedio" onclick="mensaje()"></p>
+    </div>
+<script src="js/promedio.js"></script>
+</body>
+</html>
